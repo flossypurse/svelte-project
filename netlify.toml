@@ -6,5 +6,5 @@
  command = "svelte-kit dev"
 
 [functions]
-  directory = "api/docs"
-  node_bundler = "esbuild"
+  included_files = ["/routes/api/docs/**"]
+  included_files = ["/docs/**"]
