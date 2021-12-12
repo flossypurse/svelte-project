@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-netlify": "^1.0.0-next.35",
     "@sveltejs/kit": "next",
     "autoprefixer": "^10.4.0",
     "svelte": "^3.44.0",
@@ -16,9 +17,6 @@
   },
   "type": "module",
   "dependencies": {
-    "fs-extra": "^10.0.0",
-    "get-all-files": "^4.1.0",
-    "markdown-it": "^12.3.0",
     "readdirp": "^3.6.0"
   }
 }
