@@ -4,7 +4,7 @@
     const res = await fetch(url);
     const data = await res.json();
     //console.log(data);
-
+    console.log(page.host);
     console.log(page.params.slug);
     return {
       props: {
