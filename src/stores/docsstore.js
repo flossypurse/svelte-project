@@ -4,18 +4,18 @@ import { writable } from 'svelte/store';
 //import MarkdownIt from 'markdown-it';
 
 export const docpages = writable([]);
-let loaded = false;
-
-export async function getMarkdownFiles(host) {
-  if (loaded) return;
-  const url = `http://${host}/api/docs/`;
-  const res = await fetch(url);
-  const data = await res.json();
-  docpages.set(data);
-  loaded = true;
-}
-
-getMarkdownFiles();
+// let loaded = false;
+//
+// export async function getMarkdownFiles(host) {
+//   if (loaded) return;
+//   const url = `http://${host}/api/docs/`;
+//   const res = await fetch(url);
+//   const data = await res.json();
+//   docpages.set(data);
+//   loaded = true;
+// }
+//
+// getMarkdownFiles();
 //
 //
 // export const getMarkdownFiles = async () => {
